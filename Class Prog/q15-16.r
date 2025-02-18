@@ -1,0 +1,8 @@
+names <- c("siri", "chru", "loki")
+age <- c(23, 24, 25)
+marks <- c(88, 78, 25)
+df <- data.frame(names, age, marks)
+hist(df$age, main="Age Distribution", xlab="Age", col="blue")
+boxplot(df$age, main="Age Boxplot", ylab="Age", col="red")
+f <- c(55,67,89,80,90)
+hist(f)
